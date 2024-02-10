@@ -1,0 +1,65 @@
+body {
+    background-color: #eb7495;
+}
+
+.textos {
+    color: black;
+    font-size: Arial;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.cabeçalho {
+    position: fixed;
+    top: 0;
+    /* Define a posição do topo */
+    left: 0;
+    /* Define a posição da esquerda */
+    width: 99%;
+    /* Define a largura do header */
+    display: flex;
+    justify-content: space-between;
+    /* Posiciona os itens nos extremos direito e esquerdo */
+    text-decoration: none;
+    padding: 10px;
+    /* Define o espaçamento interno do header */
+    background-color: #eb7495;
+}
+
+
+
+.botão-redondo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    /* Define a posição inferior */
+    right: 0;
+    /* Define a posição direita */
+    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+    right: 30;
+}
+
+.valores {
+    width: 800px;
+    height: 800px;
+}
+
+.missão {
+    width: 800px;
+}
+
+footer {
+    text-align: center;
+    /* Alinha o conteúdo do footer ao centro */
+    padding: 50px;
+    /* Espaçamento interno do footer */
+    text-decoration: none;
+}
